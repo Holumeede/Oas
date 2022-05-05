@@ -2,7 +2,7 @@
     <div>
         <div class="row">
             <div class="col-md-5">
-                <img src="../assets/Frame 1.png" alt="" style="width: 100%">
+                <img src="../assets/bgImage.png" alt="" style="width: 100%">
             </div>
             <div class="col-md-7 p-5">
                 <Pers v-if="layout === false"></Pers>
@@ -22,7 +22,7 @@
                                 <div class="mt-5">
                                     <div class="bes d-flex justify-content-between rounded" style="" type="button" @click="makeVisible(layout = false)">
                                         <div class="d-flex align-items-center ps-3">
-                                            <img src="../assets/Polygon 1.png" alt="" style="width: 52px; height: 52px;  ">
+                                            <img src="../assets/Polygon_1.png" alt="" style="width: 52px; height: 52px;  ">
                                             <img src="../assets/user.png" alt="" style="z-index: 2; position: absolute; margin-left: 15px;">
                                         </div>
                                         <div class="p-3">
@@ -35,7 +35,7 @@
                                     </div>
                                     <div class="bes d-flex justify-content-start rounded py-3 mt-4" type="button">
                                         <div class="d-flex align-items-center ps-4">
-                                            <img src="../assets/Polygon 2.png" alt="" style="width: 52px; height: 52px;">
+                                            <img src="../assets/Polygon_2.png" alt="" style="width: 52px; height: 52px;">
                                             <img src="../assets/briefcase.png" alt="" style="z-index: 3; position: absolute; margin-left: 15px;">
                                         </div>
                                         <div class="ps-4">
@@ -54,7 +54,7 @@
 </template>
 
 <script>
-    import Pers from './personal.vue'
+    import Pers from '../components/personal/personal.vue'
     export default {
         components: {
             Pers
