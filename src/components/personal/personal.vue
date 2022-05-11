@@ -25,7 +25,7 @@
                         <hr style="width:427px; border: 1px solid #F5F5F5;"/>
                         <div class="form-group">
                             <label for="name">Your fullname*</label>
-                            <input type="text" id="name" class="bes form-control" style="width: 426px; height: 55px;" />
+                            <input type="text" id="name" class="bes form-control" placeholder="Enter full name" style="width: 426px; height: 55px;" />
                         </div>
                         <div class="form-group mt-4">
                             <label for="email">Email address*</label>
